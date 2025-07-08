@@ -2,29 +2,28 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 1px;
-  padding: 60px 10%;
+  gap: 20px;
+  padding: 40px 8%;
   background-color: #ffff;
   flex-wrap: wrap;
 }
 
 .text-about {
   flex: 1;
-  margin-left: 6%;
-  min-width: 300px;
+  margin-left: 5%;
+  min-width: 280px;
 }
 
 .text-about h2 {
-  font-size: 32px;
-  margin-bottom: 20px;
+  font-size: 33px;
+  margin-bottom: 15px;
   color: #222;
 }
 
 .text-about p {
-  font-size: 17px;
+  font-size: 15px;
   color: #555;
-  margin-bottom: 30px;
-
+  margin-bottom: 20px;
   width: 100%;
   font-weight: 500;
 }
@@ -37,37 +36,37 @@
 .text-about li {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .text-about li i {
-  font-size: 50px;
+  font-size: 40px;
   color: #009970;
-  margin-right: 15px;
-  margin-top: 5px;
+  margin-right: 12px;
+  margin-top: 3px;
 }
 
 .text-about .li h5 {
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 5px;
   color: #333;
 }
 
 .text-about .li p {
-  font-size: 14px;
+  font-size: 13px;
   color: #666;
 }
 
 .video {
   position: relative;
   flex: 1;
-  width: 100% !important;
-  min-width: 300px;
-  margin-right: 5%;
+  width: 100%;
+  min-width: 280px;
+  margin-right: 3%;
 }
 
 .video img {
-  width: 95%;
+  width: 100%;
   display: block;
 }
 
@@ -76,8 +75,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   background: #00c28b;
   border-radius: 50%;
   display: inline-block;
@@ -93,9 +92,9 @@
   transform: translate(-40%, -50%);
   width: 0;
   height: 0;
-  border-left: 16px solid white;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
+  border-left: 14px solid white;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
 }
 
 @keyframes pulse {
@@ -103,9 +102,21 @@
     box-shadow: 0 0 0 0 rgba(0, 194, 139, 0.7);
   }
   70% {
-    box-shadow: 0 0 0 20px rgba(0, 194, 139, 0);
+    box-shadow: 0 0 0 15px rgba(0, 194, 139, 0);
   }
   100% {
     box-shadow: 0 0 0 0 rgba(0, 194, 139, 0);
+  }
+}
+
+@media (max-width: 1024px) {
+  .about-us {
+    padding: 30px 5%;
+  }
+  .text-about {
+    margin-left: 0;
+  }
+  .video {
+    margin-right: 0;
   }
 }

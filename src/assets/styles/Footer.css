@@ -1,26 +1,26 @@
 .footer {
     background-color: #F9F9F9;
     color: #fff;
-    padding: 80px 300px 20px;
-
+    padding: 80px 120px 0px;
     width: 100%;
+    height: 70vh;
 }
 .text{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
 }
 .footer .info {
-    max-width: 1400px;
+    width: 100%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 3fr 1fr 1fr 1fr;
-    gap: 40px;
+    gap: 30px;
     margin-bottom: 50px;
 }
 
 .footer .text h2 {
-    font-size: 28px;
+    font-size: 20px;
     margin-bottom: 20px;
     color: #333;
 }
@@ -31,7 +31,6 @@
     line-height: 1.6;
     margin-bottom: 20px;
     font-weight: 500;
-
 }
 
 .footer .social a {
@@ -69,11 +68,11 @@
 
 .footer .links a,
 .footer .our-services a {
-    color: #333;
+    color: #595959;
     text-decoration: none;
     transition: color 0.3s ease;
     font-family: Arial, Helvetica, sans-serif !important;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .footer .links a:hover,
@@ -82,7 +81,7 @@
 }
 
 .footer .contac-us p {
-    font-size: 15px;
+    font-size: 13px;
     color: #333;
     margin-bottom: 10px;
     font-family: Arial, Helvetica, sans-serif !important;
@@ -100,9 +99,10 @@
     font-size: 14px;
     color: #aaa;
     background-color:#EFEFEF;
-    height: 8vh;
+    height: 25%;
     margin: 0;
     width: 100%;
+    padding: 30px;
 }
 
 .footer-fn .credits span a {
