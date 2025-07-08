@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bethany</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .header-main {
+      background-image: url('https://your-image-url.com/hero-bg.jpg'); /* Usa una URL válida aquí */
+      background-size: cover;
+      background-position: center;
+      color: white;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .nav-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 60px;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .title-nav h1 {
+      color: #00c28b;
+      font-size: 28px;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+    }
+
+    .nav-links li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+
+    .nav-links li a:hover {
+      color: #00c28b;
+    }
+
+    .dropdown .arrow {
+      font-size: 0.8em;
+    }
+
+    .btn-nav {
+      margin-left: 30px;
+      background-color: #00c28b;
+      padding: 10px 22px;
+      border-radius: 4px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn-nav:hover {
+      background-color: #00a97a;
+    }
+
+    .img-header {
+      text-align: center;
+      padding: 100px 20px;
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    .img-header h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+
+    .img-header p {
+      font-size: 1.3em;
+      margin-bottom: 35px;
+    }
+
+    .img-header a {
+      background-color: #00c28b;
+      padding: 14px 30px;
+      border-radius: 4px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .img-header a:hover {
+      background-color: #00a97a;
+    }
+  </style>
+</head>
+<body>
+  <header class="header-main">
+    <div class="nav-header">
+      <div class="title-nav">
+        <h1>Bethany</h1>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#services">SERVICES</a></li>
+          <li><a href="#portfolio">PORTFOLIO</a></li>
+          <li><a href="#team">TEAM</a></li>
+          <li class="dropdown">
+            <a href="#dropdown">DROPDOWN <span class="arrow">▼</span></a>
+          </li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+        <a href="#" class="btn-nav"><span>Get Started</span></a>
+      </nav>
+    </div>
+    <div class="img-header">
+      <h1>Online Presence with Bethany</h1>
+      <p>We are team of talented designers making websites with Bootstrap</p>
+      <a href="#">Get Started</a>
+    </div>
+  </header>
+</body>
+</html>

@@ -1,0 +1,124 @@
+/* Header principal */
+
+
+.header-main {
+    width: 100%;
+    height: 75vh;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+        url('../imgs/hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.nav-header{
+    width: 71%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffff;
+    margin-top: 1%;
+    height: 67px;
+}
+.title-nav{
+    background-color: var(--color-main);
+    align-items: center;
+    display: flex;
+    padding: 10px;
+}
+.title-nav h1{
+    color: #ffff;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    margin-left: 0px;
+    padding: 8px;
+}
+nav{
+    background-color: #ffff;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-right: 1%;
+}
+nav ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+    transition: color 0.3s ease;
+    font-size: 12px;
+}
+nav ul li a:hover {
+    color: var(--color-main);
+    transition: .2s;
+}
+.btn-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    background-color: var(--color-main);
+    color: #fff;
+    border-radius: 30px;
+    font-weight: 500;
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    height: 35.5px;
+    font-size: 14px;
+}
+.btn-nav:hover {
+    background-color: #14a67f;
+    transition: .5s;
+}
+
+
+/* Contenido principal del header */
+.img-header {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    margin-top: 15%;
+}
+
+.img-header h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: -20%;
+    font-family:  "Raleway",  sans-serif;
+}
+
+.img-header p {
+    font-size: 25px;
+    margin-bottom: 30px;
+    font-family:  "Raleway",  sans-serif;
+}
+
+.img-header a {
+    display: inline-block;
+    padding: 10px 25px;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.3s ease, color 0.3s ease;
+    font-family:  "Raleway",  sans-serif;
+}
+
+.img-header a:hover {
+    background-color: var(--color-main);
+    color: #ffff;
+    border: var(--color-main) 2px solid;
+    transition: .5s;
+}

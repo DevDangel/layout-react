@@ -1,0 +1,112 @@
+.footer {
+    background-color: #F9F9F9;
+    color: #fff;
+    padding: 80px 300px 20px;
+
+    width: 100%;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer .info {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.footer .text h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.footer .text p {
+    font-size: 15px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-weight: 500;
+
+}
+
+.footer .social a {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #333;
+    transition: color 0.3s ease;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.footer .social a:hover {
+    color: var(--color-main);
+}
+
+.footer .links p,
+.footer .our-services p,
+.footer .contac-us p:first-of-type {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.footer .links ul,
+.footer .our-services ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer .links li,
+.footer .our-services li {
+    margin-bottom: 10px;
+}
+
+.footer .links a,
+.footer .our-services a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 15px;
+}
+
+.footer .links a:hover,
+.footer .our-services a:hover {
+    color: var(--color-main);
+}
+
+.footer .contac-us p {
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.footer .contac-us span {
+    font-weight: bold;
+    color: #333;
+}
+
+.footer-fn {
+    margin-top: 60px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #aaa;
+    background-color:#EFEFEF;
+    height: 8vh;
+    margin: 0;
+    width: 100%;
+}
+
+.footer-fn .credits span a {
+    color: var(--color-main);
+    text-decoration: none;
+    font-weight: 600;
+}
